@@ -2,9 +2,7 @@ import React from 'react';
 import './App.css';
 
 function App() {
-  return (
-    <p>Hello world.</p>
-  );
+  return <p>Hello world.</p>;
 }
 
 export default App;

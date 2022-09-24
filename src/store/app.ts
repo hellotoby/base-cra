@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 interface AppState {
   value: number;
-};
+}
 
 const initialState = {
   value: 0,
@@ -13,10 +13,10 @@ const appSlice = createSlice({
   initialState,
   reducers: {
     increment(state) {
-      state.value++
+      state.value++;
     },
     decrement(state) {
-      state.value--
+      state.value--;
     },
   },
 });
